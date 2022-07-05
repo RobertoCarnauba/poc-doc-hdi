@@ -1,2 +1,11 @@
-# Hello word
-Teste funcionando
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DOC HDI
+  description: example.com
+  annotations:
+    backstage.io/techdocs-ref: value
+spec:
+  type: website
+  lifecycle: production
+  owner: user:guest
