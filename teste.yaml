@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: POC-HDI
-  description: É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica.
+  description: E um facto estabelecido de que um leitor distraído pelo conteúdo legvel de uma pagina quando analisa a sua mancha grafica.
   annotations:
     github.com/project-slug: backstage/demo
 spec:
