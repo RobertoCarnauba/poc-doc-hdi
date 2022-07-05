@@ -1,8 +1,11 @@
--
-   # Testo: dasdasd
--
-   # Testo: 
--
-   # Testo: ## outro tesxto
--
-   # Testo: dasdasd
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: POC-HDI
+  description: ====== An example deployment of a Backstage application.
+  annotations:
+    github.com/project-slug: backstage/demo
+spec:
+  type: website
+  owner: backstage/maintainers
+  lifecycle: experimental
